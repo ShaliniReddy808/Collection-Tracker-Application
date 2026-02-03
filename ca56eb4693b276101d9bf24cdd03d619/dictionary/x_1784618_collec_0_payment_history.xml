@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="7e0bab4293f276101d9bf24cdd03d699" label="Payment History" max_length="40" name="x_1784618_collec_0_payment_history" type="collection">
+        <element label="Payment Date" max_length="40" name="payment_date" type="glide_date"/>
+        <element label="Payment Amount" max_length="40" name="payment_amount" type="currency"/>
+        <element label="Remarks" max_length="40" name="remarks" type="string"/>
+        <element choice="3" label="Payment Mode" max_length="40" name="payment_mode" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="UPI" sequence="2" value="upi"/>
+                <element inactive_on_update="false" label="Bank Transfer" sequence="3" value="bank_transfer"/>
+                <element inactive_on_update="false" label="Cash" sequence="0" value="cash"/>
+                <element inactive_on_update="false" label="Card" sequence="1" value="card"/>
+            </choice>
+        </element>
+        <element label="Collection Record" max_length="32" name="collection_record" reference="x_1784618_collec_0_collection_record" type="reference"/>
+        <index name="index">
+            <element name="collection_record"/>
+        </index>
+    </element>
+</database>

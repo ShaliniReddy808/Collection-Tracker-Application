@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="DELETE">
+        <category display_value="" name="x_1784618_collec_0_collection_record">x_1784618_collec_0_collection_record</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>COL-</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-03 09:47:56</sys_created_on>
+        <sys_id>8f71481293b676101d9bf24cdd03d6c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>COL-</sys_name>
+        <sys_package display_value="Collection Tracker" source="x_1784618_collec_0">ca56eb4693b276101d9bf24cdd03d619</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Collection Tracker">ca56eb4693b276101d9bf24cdd03d619</sys_scope>
+        <sys_update_name>sys_number_8f71481293b676101d9bf24cdd03d6c7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-03 09:47:56</sys_updated_on>
+    </sys_number>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Collection Tracker">ca56eb4693b276101d9bf24cdd03d619</application>
+        <file_path/>
+        <instance_id>969fb4b43b17ae948d70e0bf55e45aba</instance_id>
+        <instance_name>dev355921</instance_name>
+        <name>sys_number_8f71481293b676101d9bf24cdd03d6c7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="x_1784618_collec_0_collection_record">x_1784618_collec_0_collection_record</category><maximum_digits>7</maximum_digits><number>1000</number><prefix>COL-</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-03 09:47:56</sys_created_on><sys_id>8f71481293b676101d9bf24cdd03d6c7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>COL-</sys_name><sys_package display_value="Collection Tracker" source="x_1784618_collec_0">ca56eb4693b276101d9bf24cdd03d619</sys_package><sys_policy/><sys_scope display_value="Collection Tracker">ca56eb4693b276101d9bf24cdd03d619</sys_scope><sys_update_name>sys_number_8f71481293b676101d9bf24cdd03d6c7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-03 09:47:56</sys_updated_on></sys_number></record_update>]]></payload>
+        <payload_hash>1314019062</payload_hash>
+        <record_name>COL-</record_name>
+        <reverted_from/>
+        <source>5e56eb4693b276101d9bf24cdd03d622</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-03 09:47:56</sys_created_on>
+        <sys_id>5ac1c05293b676101d9bf24cdd03d6b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19c22e6caf80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-03 09:47:56</sys_updated_on>
+        <type>Number</type>
+        <update_guid>1ac1c052b8b676108ea3c66f0fc215b4</update_guid>
+        <update_guid_history>1ac1c052b8b676108ea3c66f0fc215b4:1314019062</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-03 10:00:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_number">sys_number</sys_db_object>
+        <sys_id>19dea0268b9349b0a299fdf105acce64</sys_id>
+        <sys_metadata>8f71481293b676101d9bf24cdd03d6c7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>COL-</sys_name>
+        <sys_package display_value="Collection Tracker" source="x_1784618_collec_0">ca56eb4693b276101d9bf24cdd03d619</sys_package>
+        <sys_parent display_value="Collection Record">2117e3c693b276101d9bf24cdd03d6dd</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Collection Tracker">ca56eb4693b276101d9bf24cdd03d619</sys_scope>
+        <sys_scope_delete display_value="">507265cc676343e2b07f361176d8c7c4</sys_scope_delete>
+        <sys_update_name>sys_number_8f71481293b676101d9bf24cdd03d6c7</sys_update_name>
+        <sys_update_version display_value="sys_number_8f71481293b676101d9bf24cdd03d6c7">5ac1c05293b676101d9bf24cdd03d6b5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-03 10:00:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
