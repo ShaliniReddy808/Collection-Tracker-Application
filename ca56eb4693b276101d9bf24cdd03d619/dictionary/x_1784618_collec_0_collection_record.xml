@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2117e3c693b276101d9bf24cdd03d6dd" extends="task" label="Collection Record" max_length="40" name="x_1784618_collec_0_collection_record" type="collection">
+        <element label="Amount Due" max_length="38" name="amount_due" type="currency"/>
+        <element label="Last Follow-up" max_length="255" name="last_follow_up" type="glide_date"/>
+        <element label="Due Date" max_length="40" name="due_dat0" type="glide_date"/>
+        <element label="Customer" max_length="32" name="customer" reference="sys_user" type="reference"/>
+        <element label="Notes" max_length="40" name="notes" type="string"/>
+        <element label="Collector" max_length="32" name="collector" reference="sys_user" type="reference"/>
+        <element label="Amount Paid" max_length="38" name="amount_paid" type="currency"/>
+        <element choice="3" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Pending" sequence="0" value="pending"/>
+                <element inactive_on_update="false" label="Partial" sequence="1" value="partial"/>
+                <element inactive_on_update="false" label="Paid" sequence="2" value="paid"/>
+                <element inactive_on_update="false" label="Overdue" sequence="3" value="overdue"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" default="javascript:getNextObjNumberPadded();" display="true" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Collection ID" max_length="40" name="collection_id" read_only="true" type="string" use_dynamic_default="true"/>
+        <element attributes="omit_sys_original=true" label="Remaining Amount" max_length="20" name="remaining_amount" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" label="Collection Details" max_length="40" name="collection_details" type="string"/>
+    </element>
+</database>
